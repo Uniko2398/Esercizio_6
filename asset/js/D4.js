@@ -139,5 +139,12 @@ console.log(upperFirst('ciao mi chiamo nicolas'))
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
-
+function giveMeRandom (n6){
+    let casualNumber = []
+    for (let i = 0; i < n6; i++){
+        casualNumber.push(Math.floor(Math.random()) *  11)
+    }
+    return casualNumber
+}
+console.log(giveMeRandom(7))
 /* SCRIVI QUI LA TUA RISPOSTA */
